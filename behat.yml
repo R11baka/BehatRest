@@ -1,0 +1,15 @@
+# behat.yml
+default:
+    extensions:
+        Behat\MinkExtension\Extension:
+            goutte: ~
+    formatter:
+      name: pretty
+      parameters: ~
+    paths:
+        features: features
+        bootstrap: %behat.paths.features%/bootstrap
+# put your base url in behat.local.yml.dist
+# and rename to behat.local.yml
+imports:
+  - behat.local.yml

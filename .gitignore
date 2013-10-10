@@ -1,0 +1,4 @@
+.idea/
+behat.local.yml
+vendor/
+composer.lock

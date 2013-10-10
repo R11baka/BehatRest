@@ -1,0 +1,5 @@
+default:
+    context:
+      parameters:
+        #change base_url to your path
+        base_url:httt://dev.com 
